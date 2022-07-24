@@ -1,0 +1,165 @@
+/* Design Systems
+
+Fonts:
+font-family: 'Allerta', sans-serif; => navbar font
+font-family: 'Abel', sans-serif;
+
+- FONT SIZES SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/* ------------------- */
+/*     Global  Reset         */
+/* ------------------- */
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
+
+/* Box sizing */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reset margins */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+  margin: 0;
+}
+
+/* Reset Font Weights */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 400;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  font-size: 62.5%;
+}
+
+/* set up the body */
+body {
+  font-family: "Allerta", sans-serif;
+  font-size: 1.6rem;
+  height: 100vh;
+  max-width: 120rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* ------------------------- */
+/* Navbar Section */
+/* ------------------------- */
+
+#navbarMonstera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3.2rem 0 3.2rem;
+  padding: 2.4rem;
+  /* background-color: red; */
+}
+
+#navMid {
+  display: flex;
+  gap: 6.4rem;
+  align-items: center;
+}
+
+#navEnd {
+  display: flex;
+  gap: 3.2rem;
+}
+
+/* ------------------------- */
+/* midWhole Section */
+/* ------------------------- */
+
+#midWhole {
+  display: flex;
+  /* align-content: flex-start; */
+  justify-content: space-between;
+}
+
+#monstera {
+  font-size: 7.4rem;
+  font-weight: 900;
+}
+
+#midWholePart11 {
+  width: 75%;
+}
+
+#midWholePart121 h1 {
+  background-color: #1c8d73;
+  width: 22rem;
+  color: #fff;
+  position: relative;
+  border-radius: 100px;
+  padding: 0.8rem 1.6rem;
+  margin-left: 3.2rem;
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+}
+
+#midWholePart121 h1::after {
+  content: ">";
+  position: absolute;
+  bottom: 18%;
+  left: 85%;
+}
+
+#midWholePart13 {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  margin-left: 3.2rem;
+}
+
+.midWholePart13Parts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 25rem;
+}
+
+.midWholePart13Parts h4 {
+  font-weight: 700;
+}
+
+#feeding,
+#light,
+#care {
+  width: 100%;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+#imgMain {
+  /* width: 90%; */
+  height: 70%;
+  position: relative;
+  left: -8%;
+}
