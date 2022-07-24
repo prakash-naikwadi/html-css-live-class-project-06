@@ -31,7 +31,7 @@ This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"**
 ## 📌 What I Learn
 
 👉 How to place images in proper places using positions.  
-👉 How to center whole body horizontally.
+👉 How to center whole body horizontally.  
 👉 Achieve some responsiveness using FlexBox.
 
 ## 📬 Connect With Me
