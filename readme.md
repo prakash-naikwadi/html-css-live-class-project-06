@@ -1,4 +1,4 @@
-## ⭐ HTML CSS Template Project 06 ⭐
+## ⭐ Plant Home Page Project 06 ⭐
 
 This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
 <br>
